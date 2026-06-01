@@ -1,0 +1,23 @@
+/* ===== FOOTER ===== */
+footer {
+    padding: 2rem 1.5rem;
+    border-top: 1px solid var(--border);
+    text-align: center;
+}
+footer p {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+}
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+footer .social-links a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+}
+footer .social-links a:hover { color: var(--accent); }
