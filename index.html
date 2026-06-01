@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florencia Gonzalez · CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <style>
+        /* ---------- Reset & Variables ---------- */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #fafafa;
+            --surface: #ffffff;
+            --text: #1a1a2e;
+            --text-muted: #5a5a72;
+            --accent: #1e3a8a;
+            --accent-light: #e8edf5;
+            --border: #e2e2ec;
+            --radius: 12px;
+            --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+            --max-w: 880px;
+            --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 2rem 1.5rem;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ---------- Container ---------- */
+        .cv {
+            max-width: var(--max-w);
+            margin: 0 auto;
+            background: var(--surface);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 3rem 2.8rem;
+        }
+
+        /* ---------- Header ---------- */
+        .header {
+            text-align: center;
+            margin-bottom: 2.2rem;
+        }
+        .header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text);
+        }
+        .header .subtitle {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-top: 0.6rem;
+            line-height: 1.7;
+        }
+        .header .subtitle span { white-space: nowrap; }
+        .header .links {
+            margin-top: 0.7rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.3rem 1.2rem;
+            font-size: 0.9rem;
+        }
+        .header .links a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity .15s;
+        }
+        .header .links a:hover { opacity: 0.7; text-decoration: underline; }
+        .header .links .sep { color: var(--border); }
+
+        /* ---------- Sections ---------- */
+        .section { margin-top: 2rem; }
+        .section-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: var(--accent);
+            padding-bottom: 0.35rem;
+            border-bottom: 2px solid var(--accent-light);
+            margin-bottom: 1rem;
+        }
+
+        /* ---------- Items ---------- */
+        .item { margin-bottom: 1.2rem; }
+        .item:last-child { margin-bottom: 0; }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 0.2rem 0.8rem;
+        }
+        .item-title {
+            font-weight: 600;
+            font-size: 1rem;
+            color: var(--text);
+        }
+        .item-date {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+
+        .item-sub {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-top: 0.05rem;
+        }
+
+        .item-body {
+            margin-top: 0.45rem;
+        }
+
+        /* ---------- Lists ---------- */
+        .list {
+            list-style: none;
+            padding: 0;
+        }
+        .list li {
+            position: relative;
+            padding-left: 1.3em;
+            margin-bottom: 0.3rem;
+            font-size: 0.93rem;
+            line-height: 1.6;
+            color: var(--text);
+        }
+        .list li::before {
+            content: "—";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            opacity: 0.5;
+        }
+
+        /* ---------- Publications ---------- */
+        .pub-item {
+            font-size: 0.93rem;
+            margin-bottom: 0.65rem;
+            padding-left: 1.3em;
+            position: relative;
+            line-height: 1.55;
+        }
+        .pub-item::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        /* ---------- Skill groups ---------- */
+        .skill-group { margin-bottom: 1rem; }
+        .skill-group:last-child { margin-bottom: 0; }
+        .skill-label {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text);
+            margin-bottom: 0.2rem;
+        }
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+        .skill-tag {
+            background: var(--accent-light);
+            color: var(--accent);
+            font-size: 0.82rem;
+            font-weight: 500;
+            padding: 0.15rem 0.7rem;
+            border-radius: 20px;
+        }
+
+        /* ---------- Awards / Honors (inline tag style) ---------- */
+        .award-item {
+            font-size: 0.93rem;
+            margin-bottom: 0.45rem;
+            padding-left: 1.3em;
+            position: relative;
+        }
+        .award-item::before {
+            content: "🏆";
+            position: absolute;
+            left: 0;
+            font-size: 0.8rem;
+        }
+
+        /* ---------- Profile text ---------- */
+        .profile-text {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: var(--text);
+        }
+
+        /* ---------- Print ---------- */
+        @media print {
+            body {
+                background: white;
+                padding: 0.5in;
+            }
+            .cv {
+                box-shadow: none;
+                border: none;
+                padding: 0;
+                border-radius: 0;
+            }
+            .section-title { border-bottom-color: #ccc; }
+            .skill-tag { border: 1px solid #ccc; background: #f5f5f5; }
+            .header .links a { color: black; }
+        }
+
+        /* ---------- Mobile ---------- */
+        @media (max-width: 640px) {
+            body { padding: 1rem 0.8rem; }
+            .cv { padding: 1.5rem 1.2rem; }
+            .header h1 { font-size: 1.7rem; }
+            .item-header { flex-direction: column; align-items: flex-start; }
+            .item-date { white-space: normal; }
+        }
+
+        /* ---------- Smooth fade-in ---------- */
+        .cv { animation: fadeUp .45s ease-out both; }
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv">
+
+    <!-- ======== HEADER ======== -->
+    <header class="header">
+        <h1>Florencia Gonzalez</h1>
+        <div class="subtitle">
+            Resistencia, Chaco, Argentina &nbsp;·&nbsp; +54 3624 653178
+        </div>
+        <div class="links">
+            <a href="mailto:floo.g1096@gmail.com">floo.g1096@gmail.com</a>
+            <span class="sep">·</span>
+            <a href="https://linkedin.com/in/florenciagonzalezz" target="_blank">LinkedIn</a>
+            <span class="sep">·</span>
+            <a href="https://github.com/florensg" target="_blank">GitHub</a>
+        </div>
+    </header>
+
+    <!-- ======== PROFILE ======== -->
+    <section class="section">
+        <h2 class="section-title">Profile</h2>
+        <p class="profile-text">
+            Final-year Information Systems Engineering student with research experience in empirical software engineering, agile estimation, and systematic literature reviews. Experience in academic research, data analysis, interdisciplinary collaboration, and international innovation projects. Skilled in software engineering fundamentals, analytical thinking, technical writing, and applied research methodologies. Strong interest in AI-assisted software development, agile methodologies, and software quality.
+        </p>
+    </section>
+
+    <!-- ======== EDUCATION ======== -->
+    <section class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="item">
+            <div class="item-header">
+                <span class="item-title">Information Systems Engineering</span>
+                <span class="item-date">Expected Graduation: Dec 2027</span>
+            </div>
+            <div class="item-sub">National Technological University (UTN), Argentina</div>
+        </div>
+    </section>
+
+    <!-- ======== RESEARCH EXPERIENCE ======== -->
+    <section class="section">
+        <h2 class="section-title">Research Experience</h2>
+
+        <div class="item">
+            <div class="item-header">
+                <span class="item-title">Research Fellow — CInApTIC (Applied ICT Research Center), UTN</span>
+                <span class="item-date">Mar 2023 – Present</span>
+            </div>
+            <div class="item-sub">Resistencia, Chaco, Argentina</div>
+            <div class="item-body">
+                <ul class="list">
+                    <li>Conducted systematic literature reviews and empirical research in agile software development environments.</li>
+                    <li>Contributed to research projects focused on software quality, agile estimation, and production capacity in agile teams.</li>
+                    <li>Designed and analyzed surveys targeting software industry professionals in Argentina and Latin America.</li>
+                    <li>Applied qualitative and quantitative research methodologies for data collection and analysis.</li>
+                    <li>Collaborated in interdisciplinary academic teams and co-authored scientific publications.</li>
+                    <li>Participated in the development of AI-assisted approaches for agile estimation processes.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== INTERNATIONAL EXPERIENCE ======== -->
+    <section class="section">
+        <h2 class="section-title">International Project Experience</h2>
+
+        <div class="item">
+            <div class="item-header">
+                <span class="item-title">HarmonIA — Huawei ICT Competition</span>
+                <span class="item-date">2024 – 2025</span>
+            </div>
+            <div class="item-sub">Global finalist project focused on AI and IoT solutions for mental health support.</div>
+            <div class="item-body">
+                <ul class="list">
+                    <li>Contributed to solution design, impact analysis, and interdisciplinary collaboration.</li>
+                    <li>Participated in international presentations and multicultural teamwork environments.</li>
+                    <li>Worked on problem analysis and technology-driven innovation strategies.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== PUBLICATIONS ======== -->
+    <section class="section">
+        <h2 class="section-title">Publications &amp; Conference Papers</h2>
+
+        <div class="pub-item">Effort Estimation in Agile Environments: An Empirical Approach to Understanding Its Application in the Software Industry — 54° JAIIO.</div>
+        <div class="pub-item">Estimación en Desarrollo Ágil de Software: Una Experiencia de Aplicación de Técnicas Empíricas para el Análisis de Estudios Previos — 12° CONAIISI.</div>
+        <div class="pub-item">Hacia una mejora de la capacidad de producción en entornos ágiles: revisión, evidencia empírica y propuesta preliminar — 13° CONAIISI.</div>
+        <div class="pub-item">Mejoras en la estimación de proyectos ágiles de software: Un relevamiento sistemático de la literatura.</div>
+    </section>
+
+    <!-- ======== HONORS & AWARDS ======== -->
+    <section class="section">
+        <h2 class="section-title">Honors &amp; Awards</h2>
+
+        <div class="award-item">Huawei ICT Competition 2025 – Innovation Track – <strong>2nd Place Global Finalist</strong></div>
+        <div class="award-item">Huawei ICT Competition 2025 – Innovation Track – <strong>1st Place LATAM</strong></div>
+        <div class="award-item">Huawei ICT Competition 2025 – Innovation Track – <strong>1st Place Argentina</strong></div>
+        <div class="award-item">Latin American Innovation Rally 2024 – <strong>2nd Place</strong> (Social Impact Category)</div>
+        <div class="award-item">Official Recognition 2025 – Legislative Chamber of Chaco</div>
+    </section>
+
+    <!-- ======== TECHNICAL SKILLS ======== -->
+    <section class="section">
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skill-group">
+            <div class="skill-label">Programming &amp; Technologies</div>
+            <div class="skill-tags">
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">GitHub</span>
+                <span class="skill-tag">Scrum</span>
+                <span class="skill-tag">Kanban</span>
+            </div>
+        </div>
+
+        <div class="skill-group">
+            <div class="skill-label">Research &amp; Analysis</div>
+            <div class="skill-tags">
+                <span class="skill-tag">Systematic Literature Reviews</span>
+                <span class="skill-tag">Empirical SE</span>
+                <span class="skill-tag">Qualitative Analysis</span>
+                <span class="skill-tag">Quantitative Analysis</span>
+                <span class="skill-tag">Survey Design</span>
+                <span class="skill-tag">Data Interpretation</span>
+                <span class="skill-tag">Academic Writing</span>
+                <span class="skill-tag">Technical Writing</span>
+            </div>
+        </div>
+
+        <div class="skill-group">
+            <div class="skill-label">Languages</div>
+            <div class="skill-tags">
+                <span class="skill-tag">Spanish — Native</span>
+                <span class="skill-tag">English — Upper-Intermediate (B2)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== AREAS OF INTEREST ======== -->
+    <section class="section">
+        <h2 class="section-title">Areas of Interest</h2>
+        <ul class="list">
+            <li>Artificial Intelligence and AI-assisted Software Engineering</li>
+            <li>Agile Software Development</li>
+            <li>Software Quality and Empirical Software Engineering</li>
+            <li>Data Analysis and Research Methodologies</li>
+            <li>Human-centered Technology Solutions</li>
+        </ul>
+    </section>
+
+</div>
+
+</body>
+</html>
