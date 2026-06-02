@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const categories = ["all", "personal", "professional", "academic"] as const;
 
@@ -64,19 +65,20 @@ export default function Projects() {
           ) : (
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {filtered.map((project, i) => (
-                <motion.div
-                  key={project.id}
-                  layout
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.3, delay: i * 0.05 }}
-                  className="rounded-2xl p-5 flex flex-col"
-                  style={{
-                    backgroundColor: "var(--color-surface)",
-                    boxShadow: "var(--shadow-card)",
-                    border: "1px solid var(--color-border)",
-                  }}
-                >
+                <Link href={`/projects/${project.id}`} key={project.id}>
+                  <motion.div
+                    layout
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.3, delay: i * 0.05 }}
+                    className="rounded-2xl p-5 flex flex-col cursor-pointer transition-all duration-200"
+                    style={{
+                      backgroundColor: "var(--color-surface)",
+                      boxShadow: "var(--shadow-card)",
+                      border: "1px solid var(--color-border)",
+                    }}
+                    whileHover={{ y: -4, boxShadow: "0 8px 24px rgba(0,0,0,0.12)" }}
+                  >
                   <span
                     className="text-xs font-bold uppercase tracking-wider mb-2"
                     style={{ color: "var(--color-accent)" }}
@@ -132,9 +134,10 @@ export default function Projects() {
                       )}
                     </div>
                   )}
-                </motion.div>
-              ))}
-            </div>
+                  </motion.div>
+                </Link>
+                ))}
+              </div>
           )}
         </motion.div>
       </div>

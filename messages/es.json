@@ -87,34 +87,66 @@
     "empty": "No hay proyectos en esta categoría todavía.",
     "items": [
       {
-        "id": "prox-personal",
-        "title": "Próximamente",
-        "date": "—",
-        "desc": "Acá van a aparecer tus proyectos personales.",
+        "id": "florgonzalez-cv",
+        "title": "FlorGonzalez — CV Portfolio",
+        "date": "2026",
+        "desc": "Sitio web CV personal construido con Next.js, TypeScript y Tailwind CSS. Diseño moderno con modo oscuro, soporte bilingüe y despliegue automatizado.",
         "category": "personal",
-        "tech": [],
-        "github": "",
-        "demo": ""
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "next-intl"],
+        "github": "https://github.com/florensg/FlorGonzalez",
+        "demo": "",
+        "details": {
+          "longDesc": "Portfolio profesional desarrollado como proyecto personal para mostrar mi trayectoria, habilidades y proyectos. Implementa arquitectura App Router de Next.js 16 con i18n, temas claro/oscuro, animaciones con Framer Motion, y diseño responsive. Los datos se gestionan mediante archivos de traducción con next-intl, permitiendo escalar el contenido fácilmente.",
+          "features": [
+            "Arquitectura App Router de Next.js 16 con layouts anidados",
+            "Soporte bilingüe ES/EN con next-intl",
+            "Modo oscuro/claro con next-themes",
+            "Animaciones con Framer Motion",
+            "Diseño responsive con Tailwind CSS 4",
+            "Filtrado de proyectos por categoría"
+          ],
+          "results": "Portfolio funcional y desplegable que presenta mi perfil profesional de forma interactiva y accesible desde cualquier dispositivo."
+        }
       },
       {
-        "id": "prox-professional",
-        "title": "Próximamente",
-        "date": "—",
-        "desc": "Acá van a aparecer tus proyectos profesionales.",
-        "category": "professional",
-        "tech": [],
-        "github": "",
-        "demo": ""
-      },
-      {
-        "id": "prox-academic",
-        "title": "Próximamente",
-        "date": "—",
-        "desc": "Acá van a aparecer tus proyectos académicos.",
+        "id": "harmonia",
+        "title": "HarmonIA — Huawei ICT Competition",
+        "date": "2024 — 2025",
+        "desc": "Solución de IA e IoT para apoyo a la salud mental. Finalista global en la categoría Innovación de la Huawei ICT Competition.",
         "category": "academic",
-        "tech": [],
+        "tech": ["AI", "IoT", "Innovation", "Multicultural Teamwork"],
         "github": "",
-        "demo": ""
+        "demo": "",
+        "details": {
+          "longDesc": "HarmonIA es una solución integrada que combina inteligencia artificial e Internet de las Cosas para brindar apoyo en el ámbito de la salud mental. El proyecto fue desarrollado en un equipo interdisciplinario y presentado en la Huawei ICT Competition, alcanzando la final global.",
+          "features": [
+            "Detección temprana de patrones mediante IA",
+            "Dispositivos IoT para monitoreo de indicadores",
+            "Dashboard de visualización de datos",
+            "Colaboración interdisciplinaria"
+          ],
+          "results": "2° puesto Global Finalist, 1° puesto LATAM y 1° puesto Argentina en Innovation Track de la Huawei ICT Competition 2025."
+        }
+      },
+      {
+        "id": "slr-agile-estimation",
+        "title": "SLR: Estimación Ágil de Software",
+        "date": "2023 — 2025",
+        "desc": "Revisión sistemática de literatura sobre estimación ágil de software, con publicaciones en JAIIO y CONAIISI.",
+        "category": "academic",
+        "tech": ["Systematic Review", "Empirical SE", "Academic Writing"],
+        "github": "",
+        "demo": "",
+        "details": {
+          "longDesc": "Investigación centrada en la estimación de esfuerzo en entornos ágiles de desarrollo de software. Se realizaron múltiples revisiones sistemáticas de literatura para identificar prácticas, desafíos y oportunidades de mejora en la estimación ágil, culminando en publicaciones en congresos nacionales e internacionales.",
+          "features": [
+            "Revisiones sistemáticas de literatura (SLR)",
+            "Diseño y análisis de encuestas a profesionales",
+            "Enfoques asistidos por IA para estimación",
+            "Análisis cualitativo y cuantitativo"
+          ],
+          "results": "4 publicaciones científicas en JAIIO y CONAIISI (2023-2025). Generación de un marco preliminar para mejora de la estimación ágil."
+        }
       }
     ]
   },
