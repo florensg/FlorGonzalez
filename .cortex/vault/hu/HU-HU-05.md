@@ -7,7 +7,7 @@ updated_at: '2026-06-01T19:27:23.017590Z'
 tags:
 - epic:inicio
 - cv-portfolio
-status: backlog
+status: done
 links: []
 vault_scope: local
 fingerprint: e76b5a49edee4ad39a4a6e2d19c3ff84c1aac04a26517f28e0cb55827480a811

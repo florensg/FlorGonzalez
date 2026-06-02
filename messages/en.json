@@ -1,0 +1,222 @@
+{
+  "site": {
+    "title": "Florencia Gonzalez · CV"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "publications": "Publications",
+    "skills": "Skills",
+    "awards": "Awards",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Florencia",
+    "lastname": "Gonzalez",
+    "title": "Research Fellow · Information Systems Engineering",
+    "description": "Empirical software engineering researcher with experience in agile estimation, systematic literature reviews, and international innovation projects. Passionate about software quality and AI-assisted engineering.",
+    "cta_experience": "View experience ↓",
+    "cta_contact": "Contact",
+    "cta_cv": "📄 Resume"
+  },
+  "about": {
+    "label": "About",
+    "title": "Learn more about my journey",
+    "subtitle": "Advanced Information Systems Engineering student with a research profile.",
+    "bio1": "Final-year Information Systems Engineering student at UTN (Argentina) with research experience in empirical software engineering, agile estimation, and systematic literature reviews. I have contributed to multiple research projects focused on software quality and agile team productivity, co-authored scientific publications, and participated in international innovation competitions.",
+    "bio2": "My work spans academic research, survey design and analysis, interdisciplinary collaboration, and AI-assisted approaches for agile estimation. I am particularly interested in AI-assisted software development, agile methodologies, and empirical software engineering.",
+    "location_label": "Location",
+    "location_value": "Resistencia, Chaco, Argentina",
+    "languages_label": "Languages",
+    "languages_value": "Spanish (Native) · English B2",
+    "education_label": "Education",
+    "education_value": "Info. Systems Eng. · UTN (2027)",
+    "research_label": "Research",
+    "research_value": "CInApTIC · Mar 2023 – Present"
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "Professional & research trajectory",
+    "subtitle": "Over 3 years of experience in academic research and international projects.",
+    "items": [
+      {
+        "tag": "Research",
+        "role": "Research Fellow — CInApTIC",
+        "organization": "Applied ICT Research Center, UTN",
+        "date": "Mar 2023 — Present · Resistencia, Chaco",
+        "bullets": [
+          "Systematic literature reviews in agile environments.",
+          "Research on software quality, agile estimation, and production capacity.",
+          "Survey design and analysis for industry professionals.",
+          "Qualitative and quantitative research methodologies.",
+          "Co-authorship of scientific publications.",
+          "AI-assisted approaches for agile estimation."
+        ]
+      },
+      {
+        "tag": "Innovation",
+        "role": "HarmonIA — Huawei ICT Competition",
+        "organization": "Global Finalist · Innovation Track",
+        "date": "2024 — 2025",
+        "bullets": [
+          "AI and IoT solution for mental health support.",
+          "Solution design, impact analysis, and interdisciplinary collaboration.",
+          "International presentations and multicultural teamwork.",
+          "Technology-driven innovation strategies."
+        ]
+      }
+    ],
+    "education": {
+      "title": "Information Systems Engineering",
+      "school": "National Technological University (UTN), Argentina · Final year",
+      "date": "Expected Dec 2027"
+    }
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Personal, professional & academic projects",
+    "subtitle": "Select a category to filter. Each project includes technologies used and links to code or demo.",
+    "filters": {
+      "all": "All",
+      "personal": "👤 Personal",
+      "professional": "💼 Professional",
+      "academic": "📚 Academic"
+    },
+    "empty": "No projects in this category yet.",
+    "items": [
+      {
+        "id": "prox-personal",
+        "title": "Coming Soon",
+        "date": "—",
+        "desc": "Personal projects will appear here.",
+        "category": "personal",
+        "tech": [],
+        "github": "",
+        "demo": ""
+      },
+      {
+        "id": "prox-professional",
+        "title": "Coming Soon",
+        "date": "—",
+        "desc": "Professional projects will appear here.",
+        "category": "professional",
+        "tech": [],
+        "github": "",
+        "demo": ""
+      },
+      {
+        "id": "prox-academic",
+        "title": "Coming Soon",
+        "date": "—",
+        "desc": "Academic projects will appear here.",
+        "category": "academic",
+        "tech": [],
+        "github": "",
+        "demo": ""
+      }
+    ]
+  },
+  "publications": {
+    "label": "Publications",
+    "title": "Scientific papers and conferences",
+    "subtitle": "Contributions to national and international software engineering conferences.",
+    "items": [
+      {
+        "title": "Effort Estimation in Agile Environments: An Empirical Approach to Understanding Its Application in the Software Industry",
+        "venue": "54° JAIIO"
+      },
+      {
+        "title": "Estimación en Desarrollo Ágil de Software: Una Experiencia de Aplicación de Técnicas Empíricas para el Análisis de Estudios Previos",
+        "venue": "12° CONAIISI"
+      },
+      {
+        "title": "Hacia una mejora de la capacidad de producción en entornos ágiles: revisión, evidencia empírica y propuesta preliminar",
+        "venue": "13° CONAIISI"
+      },
+      {
+        "title": "Mejoras en la estimación de proyectos ágiles de software: Un relevamiento sistemático de la literatura",
+        "venue": ""
+      }
+    ]
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "Technologies & competencies",
+    "subtitle": "Technical background in software development and empirical research.",
+    "categories": [
+      {
+        "title": "Programming & Technologies",
+        "items": ["JavaScript", "React", "MySQL", "Git", "GitHub", "Scrum", "Kanban"]
+      },
+      {
+        "title": "Research & Analysis",
+        "items": ["Systematic Literature Reviews", "Empirical SE", "Qualitative Research", "Quantitative Research", "Survey Design", "Data Analysis", "Academic Writing", "Technical Writing"]
+      },
+      {
+        "title": "Languages",
+        "items": ["Spanish — Native", "English — Upper-Intermediate (B2)"]
+      }
+    ]
+  },
+  "interests": {
+    "label": "Interests",
+    "title": "Areas of professional interest",
+    "subtitle": "Topics that drive my work and research.",
+    "items": [
+      "Artificial Intelligence & AI-assisted SE",
+      "Agile Software Development",
+      "Software Quality",
+      "Empirical Software Engineering",
+      "Data Analysis",
+      "Research Methodologies",
+      "Human-centered Technology"
+    ]
+  },
+  "awards": {
+    "label": "Awards",
+    "title": "Recognition and certifications",
+    "subtitle": "Awards obtained in national and international innovation competitions.",
+    "items": [
+      {
+        "icon": "🥈",
+        "text": "2nd Place Global Finalist — Innovation Track",
+        "subtext": "Huawei ICT Competition 2025"
+      },
+      {
+        "icon": "🥇",
+        "text": "1st Place LATAM — Innovation Track",
+        "subtext": "Huawei ICT Competition 2025"
+      },
+      {
+        "icon": "🥇",
+        "text": "1st Place Argentina — Innovation Track",
+        "subtext": "Huawei ICT Competition 2025"
+      },
+      {
+        "icon": "🥈",
+        "text": "2nd Place — Social Impact Category",
+        "subtext": "Latin American Innovation Rally 2024"
+      },
+      {
+        "icon": "🏛",
+        "text": "Official Recognition 2025",
+        "subtext": "Legislative Chamber of Chaco"
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk",
+    "subtitle": "Got a project, collaboration idea, or just want to connect? Don't hesitate to reach out.",
+    "email": "floo.g1096@gmail.com",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "phone": "+54 3624 653178"
+  },
+  "footer": {
+    "copyright": "© 2026 Florencia Gonzalez. All rights reserved.",
+    "made_with": "Built with Next.js, TypeScript and lots of coffee ☕"
+  }
+}

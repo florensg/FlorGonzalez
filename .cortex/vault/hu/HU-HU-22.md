@@ -7,7 +7,7 @@ updated_at: '2026-06-01T19:27:47.986379Z'
 tags:
 - epic:diferenciadores
 - cv-portfolio
-status: backlog
+status: done
 links: []
 vault_scope: local
 fingerprint: 94767d59be8b26f09b5ba6011002fba4a38308fefefe02f2f6a36497acd2d569
