@@ -35,3 +35,9 @@ next-env.d.ts
 .cortex/
 proyectos/
 temp-next/
+# Cortex
+.memory/
+vault/sessions/
+.cortex/session.lock
+.cortex/memory/
+.cortex/vault/sessions/

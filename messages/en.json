@@ -16,7 +16,7 @@
     "name": "Florencia",
     "lastname": "Gonzalez",
     "title": "Research Fellow · Information Systems Engineering",
-    "description": "Empirical software engineering researcher with experience in agile estimation, systematic literature reviews, and international innovation projects. Passionate about software quality and AI-assisted engineering.",
+    "description": "Empirical software engineering researcher with experience in agile estimation, systematic literature reviews, and international innovation projects. Passionate about software quality and AI-assisted engineering, with a strong problem-solving mindset and continuous learning orientation.",
     "cta_experience": "View experience ↓",
     "cta_contact": "Contact",
     "cta_cv": "📄 Resume"
@@ -25,14 +25,14 @@
     "label": "About",
     "title": "Learn more about my journey",
     "subtitle": "Advanced Information Systems Engineering student with a research profile.",
-    "bio1": "Final-year Information Systems Engineering student at UTN (Argentina) with research experience in empirical software engineering, agile estimation, and systematic literature reviews. I have contributed to multiple research projects focused on software quality and agile team productivity, co-authored scientific publications, and participated in international innovation competitions.",
+    "bio1": "Final-year Information Systems Engineering student at UTN (Argentina) with research experience in empirical software engineering, agile estimation, and systematic literature reviews. I have contributed to multiple research projects focused on software quality and agile team productivity, co-authored scientific publications, and participated in international innovation competitions. My work involves collaboration in academic and international research environments, with a strong focus on continuous learning and adaptation to new technologies.",
     "bio2": "My work spans academic research, survey design and analysis, interdisciplinary collaboration, and AI-assisted approaches for agile estimation. I am particularly interested in AI-assisted software development, agile methodologies, and empirical software engineering.",
     "location_label": "Location",
     "location_value": "Resistencia, Chaco, Argentina",
     "languages_label": "Languages",
     "languages_value": "Spanish (Native) · English B2",
     "education_label": "Education",
-    "education_value": "Info. Systems Eng. · UTN (2027)",
+    "education_value": "Info. Systems Eng. · UTN (Expected 2027)",
     "research_label": "Research",
     "research_value": "CInApTIC · Mar 2023 – Present"
   },
@@ -51,7 +51,7 @@
           "Research on software quality, agile estimation, and production capacity.",
           "Survey design and analysis for industry professionals.",
           "Qualitative and quantitative research methodologies.",
-          "Co-authorship of scientific publications.",
+          "Co-authorship of four scientific publications presented at software engineering conferences.",
           "AI-assisted approaches for agile estimation."
         ]
       },
@@ -64,7 +64,8 @@
           "AI and IoT solution for mental health support.",
           "Solution design, impact analysis, and interdisciplinary collaboration.",
           "International presentations and multicultural teamwork.",
-          "Technology-driven innovation strategies."
+          "Technology-driven innovation strategies.",
+          "Represented Argentina in international evaluation stages before global judges and multicultural teams."
         ]
       }
     ],

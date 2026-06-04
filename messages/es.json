@@ -16,7 +16,7 @@
     "name": "Florencia",
     "lastname": "Gonzalez",
     "title": "Research Fellow · Information Systems Engineering",
-    "description": "Investigadora en ingeniería de software empírica con experiencia en estimación ágil, revisiones sistemáticas de literatura y proyectos internacionales de innovación. Apasionada por la calidad de software y la ingeniería asistida por IA.",
+    "description": "Investigadora en ingeniería de software empírica con experiencia en estimación ágil, revisiones sistemáticas de literatura y proyectos internacionales de innovación. Apasionada por la calidad de software y la ingeniería asistida por IA, con una mentalidad orientada a la resolución de problemas y el aprendizaje continuo.",
     "cta_experience": "Ver experiencia ↓",
     "cta_contact": "Contacto",
     "cta_cv": "📄 CV"
@@ -25,14 +25,14 @@
     "label": "Sobre mí",
     "title": "Conoce más sobre mi trayectoria",
     "subtitle": "Estudiante avanzada de Ingeniería en Sistemas de Información con perfil investigador.",
-    "bio1": "Final-year Information Systems Engineering student at UTN (Argentina) with research experience in empirical software engineering, agile estimation, and systematic literature reviews. I have contributed to multiple research projects focused on software quality and agile team productivity, co-authored scientific publications, and participated in international innovation competitions.",
-    "bio2": "My work spans academic research, survey design and analysis, interdisciplinary collaboration, and AI-assisted approaches for agile estimation. I am particularly interested in AI-assisted software development, agile methodologies, and empirical software engineering.",
+    "bio1": "Estudiante avanzada de Ingeniería en Sistemas de Información en UTN (Argentina) con experiencia en investigación en ingeniería de software empírica, estimación ágil y revisiones sistemáticas de literatura. He contribuido a múltiples proyectos de investigación centrados en calidad de software y productividad de equipos ágiles, coautoreado publicaciones científicas y participado en competencias internacionales de innovación. Mi trabajo se desarrolla en colaboración dentro de entornos académicos e internacionales de investigación, con un fuerte enfoque en el aprendizaje continuo y la adaptación a nuevas tecnologías.",
+    "bio2": "Mi trabajo abarca investigación académica, diseño y análisis de encuestas, colaboración interdisciplinaria y enfoques asistidos por IA para estimación ágil. Me interesa particularmente el desarrollo de software asistido por IA, las metodologías ágiles y la ingeniería de software empírica.",
     "location_label": "Ubicación",
     "location_value": "Resistencia, Chaco, Argentina",
     "languages_label": "Idiomas",
     "languages_value": "Español (Nativo) · Inglés B2",
     "education_label": "Educación",
-    "education_value": "Ing. en Sistemas · UTN (2027)",
+    "education_value": "Ing. en Sistemas · UTN (Proyectada 2027)",
     "research_label": "Investigación",
     "research_value": "CInApTIC · Mar 2023 – Presente"
   },
@@ -51,7 +51,7 @@
           "Investigación en calidad de software, estimación ágil y capacidad de producción.",
           "Diseño y análisis de encuestas para profesionales de la industria.",
           "Metodologías cualitativas y cuantitativas de investigación.",
-          "Coautoría de publicaciones científicas.",
+          "Coautoría de cuatro publicaciones científicas presentadas en conferencias de ingeniería de software.",
           "Enfoques asistidos por IA para estimación ágil."
         ]
       },
@@ -64,7 +64,8 @@
           "Solución de AI e IoT para apoyo a la salud mental.",
           "Diseño de solución, análisis de impacto y colaboración interdisciplinaria.",
           "Presentaciones internacionales y trabajo multicultural.",
-          "Estrategias de innovación impulsadas por tecnología."
+          "Estrategias de innovación impulsadas por tecnología.",
+          "Representación de Argentina en etapas de evaluación internacional ante jurados globales y equipos multiculturales."
         ]
       }
     ],
