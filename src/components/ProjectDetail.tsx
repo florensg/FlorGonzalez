@@ -138,7 +138,7 @@ export default function ProjectDetail({ project, locale }: { project: Project; l
         {/* ── Back link ── */}
         <motion.div variants={item} className="mb-8">
           <Link
-            href={locale === "en" ? "/en/#projects" : "/#projects"}
+            href={`/${locale}/#projects`}
             className="inline-flex items-center gap-1.5 text-sm font-medium mb-8 hover:opacity-80 transition-opacity"
             style={{ color: "var(--color-accent)" }}
           >
