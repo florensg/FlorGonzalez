@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import LanguageToggle from "./LanguageToggle";
@@ -11,7 +11,7 @@ const navItems = ["about", "experience", "projects", "publications", "skills", "
 
 export default function Navbar() {
   const t = useTranslations("nav");
-  const router = useRouter();
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
   const handleClick = (id: string) => {
@@ -20,7 +20,10 @@ export default function Navbar() {
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
     } else {
-      router.push(`/#${id}`);
+      // Navigate to main page preserving locale (as-needed prefix)
+      const isEnglish = pathname === "/en" || pathname.startsWith("/en/");
+      const prefix = isEnglish ? "/en" : "";
+      window.location.href = `${prefix}/#${id}`;
     }
   };
 

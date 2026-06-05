@@ -148,6 +148,31 @@
           ],
           "results": "4 scientific publications at JAIIO and CONAIISI (2023-2025). Generation of a preliminary framework for improving agile estimation."
         }
+      },
+      {
+        "id": "calidad-software-tpi",
+        "title": "Quality-in-Use Analysis of E-commerce Web Platforms",
+        "date": "2024",
+        "desc": "Final project for the Software Product and Process Quality course (UTN, 2024). We developed a comprehensive quality evaluation model based on QuAM and ISO 25000, applied to Mercado Libre with real users to measure understandability, effectiveness, and satisfaction in use.",
+        "category": "academic",
+        "tech": ["QuAM", "ISO 25000", "Web Usability", "Quality Evaluation", "Empirical Research", "Mercado Libre"],
+        "logo": "/images/mercadolibre-logo.svg",
+        "pdfUrl": "/Aspectos avanzados de la calidad de software TPI.pdf",
+        "github": "",
+        "demo": "",
+        "details": {
+          "longDesc": "This integrative practical project originated in the Software Product and Process Quality course (UTN, 2024) with a clear goal: to build a concrete tool for measuring the quality in use of ecommerce platforms from the end-user perspective.\n\nWe began by studying the state of the art in software quality models, adopting the ISO/IEC 25000 framework and the QuAM (Quality Agile Model) as our foundation. From there, we selected three quality characteristics that we considered critical for the success of an online shopping platform:\n\n• **Understandability** — How intuitive is the navigation? Can a new user complete a purchase without assistance?\n• **Effectiveness in use** — Does the user achieve their goals accurately and without errors?\n• **Satisfaction in use** — Does the experience generate trust and a positive perception?\n\nEach characteristic was broken down into subcharacteristics and measurable attributes. For example, for Satisfaction in use we defined the \"Trust\" subcharacteristic, with attributes such as \"Perception of personal data security\" and \"Clarity of return policies\". For each attribute we designed quantitative metrics with evaluation scales, acceptance criteria, and relative weights.\n\nThe next step was to apply the model to a real case: Mercado Libre, the largest ecommerce platform in Latin America. We recruited real users, designed a structured survey linked to each attribute of the model, and analyzed the results using descriptive statistical methods.\n\nThe findings were revealing: we identified significant strengths in overall navigation ease, but also concrete areas for improvement in shipping information transparency, clarity of exchange policies, and payment security perception. Each finding was documented with its corresponding metric support, and we proposed actionable recommendations.\n\nThe final result was a 49-page technical report integrating the theoretical framework, model design, evaluation methodology, case study results, and recommendations. Beyond the deliverable, the process gave us deep insights into how to translate abstract quality standards into concrete metrics and how to design empirical studies that generate real value for product teams.",
+          "features": [
+            "Built a QuAM quality model adapted for ecommerce platforms from ISO 25000",
+            "Selected and justified 3 characteristics: Understandability, Effectiveness in use, and Satisfaction in use",
+            "Defined subcharacteristics (ease of reading, ease of help, trust) with attributes and quantitative metrics",
+            "Designed a structured survey directly linked to the model's attributes",
+            "Applied the model to Mercado Libre with real users",
+            "Descriptive statistical analysis of results and generation of recommendations",
+            "49-page technical report integrating theory, model, methodology, and results"
+          ],
+          "results": "We built a functional and replicable quality model for evaluating ecommerce platforms, successfully applied it to Mercado Libre with real users, and generated a 49-page report with concrete findings and actionable recommendations. The project was approved as the final assessment for the course and demonstrated that international quality standards can be translated into practical evaluation tools."
+        }
       }
     ]
   },

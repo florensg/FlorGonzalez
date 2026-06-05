@@ -148,6 +148,31 @@
           ],
           "results": "4 publicaciones científicas en JAIIO y CONAIISI (2023-2025). Generación de un marco preliminar para mejora de la estimación ágil."
         }
+      },
+      {
+        "id": "calidad-software-tpi",
+        "title": "Análisis de la calidad en uso de plataformas web de ecommerce",
+        "date": "2024",
+        "desc": "Trabajo final de la materia Calidad del Producto y del Proceso de Software (UTN, 2024). Desarrollamos un modelo integral de evaluación de calidad basado en QuAM e ISO 25000, aplicado a Mercado Libre con usuarios reales para medir facilidad de entendimiento, efectividad y satisfacción en uso.",
+        "category": "academic",
+        "tech": ["QuAM", "ISO 25000", "Usabilidad Web", "Evaluación de Calidad", "Investigación Empírica", "Mercado Libre"],
+        "logo": "/images/mercadolibre-logo.svg",
+        "pdfUrl": "/Aspectos avanzados de la calidad de software TPI.pdf",
+        "github": "",
+        "demo": "",
+        "details": {
+          "longDesc": "Este trabajo práctico integrador nació en la materia Calidad del Producto y del Proceso de Software (UTN, 2024) con un objetivo claro: construir una herramienta concreta para medir la calidad en uso de plataformas de ecommerce desde la perspectiva del usuario final.\n\nComenzamos estudiando el estado del arte en modelos de calidad de software, adoptando el marco ISO/IEC 25000 y el modelo QuAM (Quality Agile Model) como base. A partir de ahí, seleccionamos tres características de calidad que consideramos críticas para el éxito de una plataforma de compras online:\n\n• **Facilidad de entendimiento** — ¿Qué tan intuitiva es la navegación? ¿Puede un usuario nuevo completar una compra sin ayuda?\n• **Efectividad en uso** — ¿El usuario logra sus objetivos con precisión y sin errores?\n• **Satisfacción en uso** — ¿La experiencia genera confianza y una percepción positiva?\n\nCada característica la desglosamos en subcaracterísticas y atributos medibles. Por ejemplo, para Satisfacción en uso definimos la subcaracterística \"Confianza\", con atributos como \"Percepción de seguridad en los datos personales\" y \"Claridad de las políticas de devolución\". Para cada atributo diseñamos métricas cuantitativas con escalas de evaluación, criterios de aceptación y pesos relativos.\n\nEl siguiente paso fue aplicar el modelo a un caso real: Mercado Libre, la plataforma de ecommerce más grande de Latinoamérica. Reclutamos usuarios reales, diseñamos una encuesta estructurada con preguntas vinculadas a cada atributo del modelo, y analizamos los resultados utilizando métodos estadísticos descriptivos.\n\nLos hallazgos fueron reveladores: identificamos fortalezas significativas en la facilidad de navegación general, pero también áreas de mejora concretas en la transparencia de la información de envíos, la claridad de las políticas de cambio y la percepción de seguridad durante el pago. Documentamos cada hallazgo con su correspondiente respaldo métrico y propusimos recomendaciones accionables.\n\nEl resultado final fue un informe técnico de 49 páginas que integra el marco teórico, el diseño del modelo, la metodología de evaluación, los resultados del caso de estudio y las recomendaciones. Más allá del producto entregable, el proceso nos dejó aprendizajes profundos sobre cómo traducir estándares abstractos de calidad a métricas concretas y cómo diseñar estudios empíricos que generen valor real para equipos de producto.",
+          "features": [
+            "Construcción de un modelo de calidad QuAM adaptado a plataformas ecommerce desde ISO 25000",
+            "Selección y justificación de 3 características: Facilidad de entendimiento, Efectividad en uso y Satisfacción en uso",
+            "Definición de subcaracterísticas (facilidad de lectura, facilidad de ayuda, confianza) con atributos y métricas cuantitativas",
+            "Diseño de una encuesta estructurada vinculada directamente a los atributos del modelo",
+            "Aplicación del modelo a Mercado Libre con usuarios reales",
+            "Análisis estadístico descriptivo de los resultados y generación de recomendaciones",
+            "Informe técnico de 49 páginas integrando teoría, modelo, metodología y resultados"
+          ],
+          "results": "Construimos un modelo de calidad funcional y replicable para evaluar plataformas ecommerce, lo aplicamos exitosamente a Mercado Libre con usuarios reales, y generamos un informe de 49 páginas con hallazgos concretos y recomendaciones accionables. El trabajo fue aprobado como instancia evaluativa final de la materia y demostró que es posible traducir estándares internacionales de calidad a herramientas prácticas de evaluación."
+        }
       }
     ]
   },
